@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int power(int X,int Y)
+{
+    int i;
+   int result=1;
+    for(i=0;i<Y;i++)
+    {
+        result=result*X;
+    }
+    return result;
+}
+int power(int X)
+{
+    int i;
+    int Y=2;
+   int result=1;
+    for(i=0;i<Y;i++)
+    {
+        result=result*X;
+    }
+    return result;
+}
+
+
+int main()
+{
+    
+cout<<power(3,4);
+    return 0;
+}
